@@ -17,9 +17,11 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix
-  residents = [[ENNET_HOUSE], [ENFIELD_TENNIS_ACADEMY]]
-  residents# Build an array that c ontains (or, "nests") the residents of The Ennet House
-  # and the Enfield Tennis Academy as provided by the constants
+  residents = [
+    ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
+    ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
+  ]
+
 end
 
 def array_literal_matrix
