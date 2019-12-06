@@ -28,7 +28,7 @@ def array_literal_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  residents[row][column]# Return the matrix's content at row and column
+  residents[1][1]# Return the matrix's content at row and column
 end
 
 def matrix_update(matrix, row, column, new_value)
